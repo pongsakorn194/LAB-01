@@ -47,7 +47,7 @@ WinMain(HINSTANCE hInst, HINSTANCE hPrev, LPSTR  lpCmdLine, int nCmdshow)
 5 กดปุ่ม Ctrl+F5 เพื่อดูผลการทำงานของโปรแกรม
 
 ## บันทึกผลการทดลอง
-ในการพิมพืคำสั่ง MessageBox คำว่า (" World! This is my first win32 program!" "Lesson1", MB_OK); มันจะเด้งคำๆนั้นขึ้นมาและคำสั่ง  MB_OK คือตัวกดว่าจะเป็นOKอย่างเดียว
+ในการใช้คำสั่ง MessageBox คำว่า (" World! This is my first win32 program!" "Lesson1", MB_OK); มันจะเด้งคำๆนั้นขึ้นมาและคำสั่ง  MB_OK คือตัวกดว่าจะเป็นOKอย่างเดียว
 	
  
 
