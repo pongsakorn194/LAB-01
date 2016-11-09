@@ -3,14 +3,17 @@
 ## LAB1
 
 ### สรุปผลการทดลอง
+
+จาก code เปิดการให้แสดง MessageBox ขั้นมาว่า Hello World! This is my first win32 program! และ MB_OK คือการกด ok แล้วออก
 ```
 #include <windows.h>
 
 int WINAPI
 WinMain(HINSTANCE hInst, HINSTANCE hPrev, LPSTR  lpCmdLine, int nCmdshow)
 {
-	MessageBox(NULL, "Pongsakorn", "Lesson1", MB_OKCANCEL);
-	return 0;
+    MessageBox(NULL, "Hello World! This is my first win32 program!",
+    "Lesson1", MB_OK);
+    return 0;
 }
 ```
 
